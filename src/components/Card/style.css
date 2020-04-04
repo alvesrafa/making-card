@@ -1,0 +1,22 @@
+/* .card img {
+  width: 100%;
+}
+.card {
+  background-color: #FFF;
+  width: auto; 800
+  height: auto;
+  border-radius: 3px;
+   offset-x | offset-y | blur-radius | spread-radius | color 
+  box-shadow: 10px 10px 0px 1px rgba(0, 0, 0, 0.2);
+}*/
+.card-header {
+  border-bottom: 1px solid #DDD;
+  text-align: center;
+}
+.card-body{
+  padding: 7px;
+}
+.card-footer {
+  border-top: 1px solid#DDD;
+  text-align: center;
+} 

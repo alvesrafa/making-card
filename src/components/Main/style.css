@@ -1,0 +1,18 @@
+main {
+  width: 70%;
+}
+main .content-view {
+  height: 65vh;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF;
+}
+main .content-code {
+  height: 35vh;
+  background-color: #57606f;
+}
+
+
+

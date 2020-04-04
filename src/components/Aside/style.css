@@ -1,0 +1,39 @@
+#aside {
+  height: 100vh;
+  background-color: #c8d6e5;
+
+  padding: 15px;
+
+}
+#aside .title {
+  margin-bottom: 20px;
+}
+#aside .props {
+  display: flex;
+  flex-direction: column;
+}
+#aside .props .prop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: justify;
+  margin-top: 8px;
+}
+.props .prop .input-block input {
+  border: 0;
+  border-radius: 4px;
+  height: 35px;
+  padding: 5px;
+  width: 70px;
+  line-height: 40px;
+  font-size: 15px;
+  margin-right: 5px;
+}
+.props .prop .input-block input[type='range'] {
+  width: 100%;
+}
+.prop .input-block {
+  margin: 7px;
+  display: flex;
+  flex-direction: column;
+}
