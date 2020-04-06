@@ -31,11 +31,11 @@ An application for you to create your css card
 
 ## 📋 Examples <a name = "examples">
 
-<img src="https://i.imgur.com/twv0boa.png" style="margin: 5px;" width="450px" alt="Exemplo 1">
+<img src="https://i.imgur.com/twv0boa.png" style="margin: 5px;"  alt="Exemplo 1">
 
-<img src="https://i.imgur.com/GMdcGxl.png" style="margin: 5px;" width="250px" alt="Exemplo 3">
+<img src="https://i.imgur.com/GMdcGxl.png" style="margin: 5px;"  alt="Exemplo 3">
 
-<img src="https://i.imgur.com/P7jlOGf.png" style="margin: 5px;" width="400px" alt="Exemplo 2">
+<img src="https://i.imgur.com/P7jlOGf.png" style="margin: 5px;"  alt="Exemplo 2">
 
 
 
