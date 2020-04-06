@@ -7,7 +7,7 @@ export default function Aside(props){
   return (
     <div id="aside" >
         <div className="title">
-          <h1>Make your card <i data-feather="circle"></i></h1>
+          <h1>Make your CSS card <i data-feather="circle"></i></h1>
         </div>
         <div className="props">
           <div className="prop">
