@@ -14,7 +14,7 @@ export default function Card(props){
       border={props.border}
     >
       <div className="card-header">CARD TITLE</div>
-      <div className="card-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse placeat aliquam quisquam laudantium rerum facilis est voluptas illum minima eos voluptatibus nobis minus mollitia tenetur alias, consequuntur veniam facere vitae!</div>
+      <div className="card-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit!</div>
       <div className="card-footer">CARD FOOTER</div>
     </CardStyle>
   )
@@ -27,6 +27,7 @@ const CardStyle = styled.div`
   background-color: #FFF;
   width: ${props => props.width}px;
   height: ${props => props.height}px;
+  padding: 10px 0;
 
   border: ${props => props.border};
   border-radius: ${props => props.bRadius}px;

@@ -10,13 +10,12 @@
   box-shadow: 10px 10px 0px 1px rgba(0, 0, 0, 0.2);
 }*/
 .card-header {
-  border-bottom: 1px solid #DDD;
   text-align: center;
 }
 .card-body{
   padding: 7px;
+  height: 80%;
 }
 .card-footer {
-  border-top: 1px solid#DDD;
   text-align: center;
 } 

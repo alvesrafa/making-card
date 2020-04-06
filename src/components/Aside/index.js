@@ -23,13 +23,13 @@ export default function Aside(props){
           <div className="prop">
             <div className="input-block">
               <label>Border radius {props.bRadius}px</label> 
-              <input type="range" min="0" max="150" value={props.bRadius} onChange={(e)=> props.setBRadius(e.target.value)}/>
+              <input type="range" min="0" max="100" value={props.bRadius} onChange={(e)=> props.setBRadius(e.target.value)}/>
             </div>
           </div>
           <div className="prop">
             <div className="input-block">
               <label>Shadow position {props.shadowPosition}px</label>
-              <input type="range" min="0" max="150" value={props.shadowPosition} onChange={(e)=> props.setShadowPosition(e.target.value)}/>
+              <input type="range" min="0" max="45" value={props.shadowPosition} onChange={(e)=> props.setShadowPosition(e.target.value)}/>
             </div>
             <div className="input-block">
               <label>Color</label>
@@ -43,17 +43,17 @@ export default function Aside(props){
           <div className="prop">
             <div className="input-block">
               <label>Shadow blur {props.shadowBlur}px</label>
-              <input type="range" min="0" max="150" value={props.shadowBlur} onChange={(e)=> props.setShadowBlur(e.target.value)}/>
+              <input type="range" min="0" max="75" value={props.shadowBlur} onChange={(e)=> props.setShadowBlur(e.target.value)}/>
             </div>
             <div className="input-block">
               <label>Shadow spread {props.shadowSpread}px</label>
-              <input type="range" min="0" max="150" value={props.shadowSpread} onChange={(e)=> props.setShadowSpread(e.target.value)}/>
+              <input type="range" min="0" max="60" value={props.shadowSpread} onChange={(e)=> props.setShadowSpread(e.target.value)}/>
             </div>
           </div>
           <div className="prop">
             <div className="input-block">
               <label>Border {props.border}px</label>
-              <input type="range" min="0" max="150" value={props.border} onChange={(e)=> props.setBorder(e.target.value)}/>
+              <input type="range" min="0" max="10" value={props.border} onChange={(e)=> props.setBorder(e.target.value)}/>
             </div>
             <div className="input-block">
               <label>Color</label>

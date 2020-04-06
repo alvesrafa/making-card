@@ -18,10 +18,15 @@ main .content-view {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ecf0f1;
+  background-color: #BDBDBD;
 }
 main .content-code {
   height: 35vh;
-  background-color: #57606f;
+  background-color: #212121;
+  color: rgb(228, 228, 228);
 }
+main .content-code .code-html input{
+  height: 150px;
+  width: 50%;
 
+}
