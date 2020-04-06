@@ -35,28 +35,26 @@ function App() {
         shadowSpread={shadowSpread} setShadowSpread={setShadowSpread}
         border={border} setBorder={setBorder}
         borderColor={borderColor} setBorderColor={setBorderColor}
-      
       />
       <main>
-        <div className="content-view">
-            <Card 
-              width={width}
-              height={height}
-              bRadius={bRadius}
-              shadow={`${shadowPosition}px ${shadowPosition}px ${shadowBlur}px ${shadowSpread}px ${shadowColor.rgba ? shadowColor.rgba : '#DDD'}`}
-              border={`${border}px solid ${borderColor.rgba ? borderColor.rgba : '#DDD'}`}
-            />
-          
-        </div>
-        <div className="content-code">
-          <div className="code-html">
-            <input type="text" value={`background-color: #FFF;width: ${width}px;height: ${height}px;padding: 10px 0;border: ${border}px solid ${borderColor.rgba ? borderColor.rgba : '#DDD'};border-radius: ${bRadius}px;box-shadow: ${shadowPosition}px ${shadowPosition}px ${shadowBlur}px ${shadowSpread}px ${shadowColor.rgba ? shadowColor.rgba : '#DDD'};
-            `}/>
-          </div>
-          <div className="code-css">
-          
-          </div>
-        </div>
+        <Card 
+          width={width}
+          height={height}
+          bRadius={bRadius}
+          shadow={`${shadowPosition}px ${shadowPosition}px ${shadowBlur}px ${shadowSpread}px ${shadowColor.rgba ? shadowColor.rgba : '#DDD'}`}
+          border={`${border}px solid ${borderColor.rgba ? borderColor.rgba : '#DDD'}`}
+        />
+        <code>
+          <pre>
+            background-color: #FFF; <br/>
+            width: {width}px;<br/>
+            height: {height}px;<br/>
+            padding: 10px 0;<br/>
+            border: {border}px solid {borderColor.rgba ? borderColor.rgba : '#DDD'};<br/>
+            border-radius: {bRadius}px;<br/>
+            box-shadow: {shadowPosition}px {shadowPosition}px {shadowBlur}px {shadowSpread}px {shadowColor.rgba ? shadowColor.rgba : '#DDD'};<br/>
+          </pre>
+        </code>
       </main>
     </div>
   );

@@ -10,23 +10,27 @@
   font-family: 'Roboto', sans-serif;
 }
 main {
-  width: 80vw;
-}
-main .content-view {
-  height: 65vh;
+  width: 65vw;
+  height: 100vh;
   padding: 10px 20px;
-  display: flex;
+  background-color: #f2f2f2;
+
+  display:flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #BDBDBD;
 }
-main .content-code {
-  height: 35vh;
-  background-color: #212121;
-  color: rgb(228, 228, 228);
+main code {
+  margin-top: 80px;
+  background-color: #cccccc;
+  border-radius: 4px;
 }
-main .content-code .code-html input{
-  height: 150px;
-  width: 50%;
-
+main code pre{
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin: 30px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  height: auto;
+  color: #444;
 }

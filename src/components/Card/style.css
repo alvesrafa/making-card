@@ -11,11 +11,13 @@
 }*/
 .card-header {
   text-align: center;
+  margin: 5px;
 }
 .card-body{
   padding: 7px;
-  height: 80%;
+  height: 60%;
 }
 .card-footer {
   text-align: center;
+  margin: 5px;
 } 

@@ -58,7 +58,7 @@ export default function Aside(props){
             <div className="input-block">
               <label>Color</label>
               <InputColor
-                initialValue="#aaa"
+                initialValue="#000"
                 onChange={props.setBorderColor}
               />
               

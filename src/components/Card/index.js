@@ -24,6 +24,8 @@ export default function Card(props){
 
 
 const CardStyle = styled.div`
+  overflow: hidden;
+  
   background-color: #FFF;
   width: ${props => props.width}px;
   height: ${props => props.height}px;
