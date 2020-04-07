@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/making-card/static/css/main.8010e9cf.chunk.css",
+    "main.css": "/making-card/static/css/main.b7813d54.chunk.css",
     "main.js": "/making-card/static/js/main.13446cd3.chunk.js",
     "main.js.map": "/making-card/static/js/main.13446cd3.chunk.js.map",
     "runtime-main.js": "/making-card/static/js/runtime-main.c176b93f.js",
@@ -8,15 +8,15 @@
     "static/js/2.0dfe323c.chunk.js": "/making-card/static/js/2.0dfe323c.chunk.js",
     "static/js/2.0dfe323c.chunk.js.map": "/making-card/static/js/2.0dfe323c.chunk.js.map",
     "index.html": "/making-card/index.html",
-    "precache-manifest.92861836197c903b8da88816f92cacac.js": "/making-card/precache-manifest.92861836197c903b8da88816f92cacac.js",
+    "precache-manifest.c15fee2ca0b24f159b93df2594469dc0.js": "/making-card/precache-manifest.c15fee2ca0b24f159b93df2594469dc0.js",
     "service-worker.js": "/making-card/service-worker.js",
-    "static/css/main.8010e9cf.chunk.css.map": "/making-card/static/css/main.8010e9cf.chunk.css.map",
+    "static/css/main.b7813d54.chunk.css.map": "/making-card/static/css/main.b7813d54.chunk.css.map",
     "static/js/2.0dfe323c.chunk.js.LICENSE.txt": "/making-card/static/js/2.0dfe323c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c176b93f.js",
     "static/js/2.0dfe323c.chunk.js",
-    "static/css/main.8010e9cf.chunk.css",
+    "static/css/main.b7813d54.chunk.css",
     "static/js/main.13446cd3.chunk.js"
   ]
 }

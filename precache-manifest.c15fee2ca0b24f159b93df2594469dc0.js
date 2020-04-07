@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "97f05f776ed5514c579a3e221b4624ba",
+    "revision": "c4742477902414da0710e97baba73a41",
     "url": "/making-card/index.html"
   },
   {
-    "revision": "94673d18e8c65555d8f8",
-    "url": "/making-card/static/css/main.8010e9cf.chunk.css"
+    "revision": "b531ae67b0d1f0486a42",
+    "url": "/making-card/static/css/main.b7813d54.chunk.css"
   },
   {
     "revision": "f054b9d1396e6981f98b",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/making-card/static/js/2.0dfe323c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "94673d18e8c65555d8f8",
+    "revision": "b531ae67b0d1f0486a42",
     "url": "/making-card/static/js/main.13446cd3.chunk.js"
   },
   {
