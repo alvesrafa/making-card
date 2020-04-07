@@ -17,7 +17,7 @@
 ---
 
 <p align="center"> 
-An application for you to create your css card
+Here you can create your css card
     <br> 
 </p>
 
