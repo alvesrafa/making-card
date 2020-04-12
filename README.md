@@ -19,6 +19,7 @@
 <p align="center"> 
 An application for you to create your css card
     <br> 
+Você pode montar seu 'card' utilizando as ferramentas da página e instantaneamente o código CSS estará disponível para utilizar.
 </p>
 
 ## 📝 Menu
