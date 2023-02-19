@@ -2,7 +2,7 @@ import Card from "@/components/Card";
 import { ConfigMenu } from "@/components/ConfigMenu";
 import { useCard } from "@/contexts/Card";
 
-export function Main() {
+export default function Main() {
   const {
     width,
     height,
