@@ -1,6 +1,6 @@
 import { useCard } from "@/contexts/Card";
 import InputColor from "react-input-color";
-import { ConfigMenuWrapper } from "./style";
+import { ConfigMenuWrapper, Option, OptionsWrapper } from "./style";
 import "./style.ts";
 
 export function ConfigMenu() {
@@ -25,13 +25,12 @@ export function ConfigMenu() {
 
   return (
     <ConfigMenuWrapper>
-      <div className="title">
-        <h1>
-          Make your CSS card <i data-feather="circle"></i>
-        </h1>
-      </div>
-      <div className="props">
-        <div className="prop">
+      <h1>
+        Make your CSS card <i data-feather="circle"></i>
+      </h1>
+
+      <OptionsWrapper>
+        <Option>
           <div className="input-block">
             <label>Width</label>
             <input
@@ -49,8 +48,8 @@ export function ConfigMenu() {
               onChange={(e) => setHeight(e.target.value)}
             />
           </div>
-        </div>
-        <div className="prop">
+        </Option>
+        <Option>
           <div className="input-block">
             <label>Border radius {bRadius}px</label>
             <input
@@ -61,8 +60,8 @@ export function ConfigMenu() {
               onChange={(e) => setBRadius(e.target.value)}
             />
           </div>
-        </div>
-        <div className="prop">
+        </Option>
+        <Option>
           <div className="input-block">
             <label>Shadow position {shadowPosition}px</label>
             <input
@@ -77,8 +76,8 @@ export function ConfigMenu() {
             <label>Color</label>
             <InputColor initialValue="#aaa" onChange={setShadowColor} />
           </div>
-        </div>
-        <div className="prop">
+        </Option>
+        <Option>
           <div className="input-block">
             <label>Shadow blur {shadowBlur}px</label>
             <input
@@ -99,8 +98,8 @@ export function ConfigMenu() {
               onChange={(e) => setShadowSpread(e.target.value)}
             />
           </div>
-        </div>
-        <div className="prop">
+        </Option>
+        <Option>
           <div className="input-block">
             <label>Border {border}px</label>
             <input
@@ -115,8 +114,8 @@ export function ConfigMenu() {
             <label>Color</label>
             <InputColor initialValue="#000" onChange={setBorderColor} />
           </div>
-        </div>
-      </div>
+        </Option>
+      </OptionsWrapper>
     </ConfigMenuWrapper>
   );
 }
