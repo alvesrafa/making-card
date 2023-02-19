@@ -1,6 +1,6 @@
 import { CardProvider } from "@/contexts/Card";
 import Head from "next/head";
-import { Main } from "./main";
+import Main from "./main";
 
 export default function Home() {
   return (
